@@ -38,25 +38,25 @@
 
 #allaboutfeminism
 {
-  font-family: Roboto, sans-serif;
-  color: #dd0d79; /*pink*/;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; /*creates border/shadow around letters*/
-  font-size: 100px;
-  margin: 150px 10px 0px 10px;
+	font-family: Roboto, sans-serif;
+  	color: #dd0d79; /*pink*/;
+  	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; /*creates border/shadow around letters*/
+  	font-size: 80px;
+  	margin: 150px 10px 0px 10px;
 	z-index: -1;
 	text-align: center;
 } /*end of h1 rule on index page*/
 
 #indexbody
 {
-  background-image: url("womensmarch.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  	background-image: url("womensmarch.png");
+  	background-size: 100%;
+	background-repeat: no-repeat;
 }/*end of rule for body of the index page*/
 
 #tableofcontentsheader
 {
-  font-family: Roboto, sans-serif;
+  	font-family: Roboto, sans-serif;
 	color: #dd0d79; /*pink*/
 	margin: 125px 0px 0px 0px;
 	z-index: -1;
@@ -76,24 +76,24 @@
 
 #whatisfeminism, #intersectionalityone, #intersectionalitytwo, #factslist li, #moreresourceslist li, #explorelist li, #author, #learnmore, #contact
 {
-  z-index: -1;
-  margin: 8px;
-  font-family: Georgia, serif;
-  line-height: 135%;
-  text-align: justify;
+  	z-index: -1;
+  	margin: 8px;
+  	font-family: Georgia, serif;
+  	line-height: 135%;
+  	text-align: justify;
 } /*end of rule for paragraphs and lists on the index page*/
 
 #imageofme
 {
-  z-index: -1;
-  margin: 8px;
+  	z-index: -1;
+  	margin: 8px;
 } /*end of rule for image of me*/
 
 #tableofcontents li
 {
-  display: inline;
-  padding: 20px;
-  z-index: -1;
+  	display: inline;
+  	padding: 20px;
+  	z-index: -1;
 } /*end of rule for list items in the table of contents list*/
 
 #tableofcontents
@@ -108,46 +108,46 @@
 
 #glossaryheader
 {
-  font-family: Roboto, sans-serif;
-  color: #dd0d79; /*pink*/;
-  text-align: center;
-  margin: 100px 0px 0px 0px;
-  font-size: 100px;
+  	font-family: Roboto, sans-serif;
+  	color: #dd0d79; /*pink*/;
+  	text-align: center;
+  	margin: 100px 0px 0px 0px;
+  	font-size: 100px;
 }/*end of glossary header rule*/
 
 #feminismdefinition
 {
-  margin: 8px;
+  	margin: 8px;
 } /*end of rule for feminism definition image*/
 
 #glossarywords
 {
-  line-height: 200%;
-  font-family: Georgia, serif;
+  	line-height: 200%;
+  	font-family: Georgia, serif;
 } /*end of rule for glossary words list*/
 
 /*references page section*/
 
 #referencesheader
 {
-  font-family: Roboto, sans-serif;
-  color: #dd0d79; /*pink*/
-  display: block;
-  text-align: center;
-  margin: 100px 0px 0px 0px;
-  font-size: 100px;
+  	font-family: Roboto, sans-serif;
+  	color: #dd0d79; /*pink*/
+  	display: block;
+  	text-align: center;
+  	margin: 100px 0px 0px 0px;
+  	font-size: 100px;
 }
 
 #books, #images, #magazines, #newspapers, #videos, #websites
 {
-  font-family: Roboto, sans-serif;
-  color: #dd0d79; /*pink*/
+  	font-family: Roboto, sans-serif;
+  	color: #dd0d79; /*pink*/
 }/*end of rule for h2 in the references page*/
 
 #bookreference, #feminismdefinitionreference, #imageofmereference, #womensmarchreference, #magazinereference, #videoreference, #newspaperreference,#intersectionalityreference, #genderequalityreference, #plancanadareference
 {
-  font-family: Georgia, serif;
-  line-height: 125%;
+	font-family: Georgia, serif;
+  	line-height: 125%;
 } /*end of rule for reference paragraphs*/
 
 /*links section*/
