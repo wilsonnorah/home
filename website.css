@@ -1,0 +1,169 @@
+/*navigation bar section*/
+
+#navigationbar
+{
+	list-style-type: none; /*removes bullets*/
+	margin: 0; /*removes browser default settings*/
+	padding: 0; /*removes browser default settings*/
+	background-color: black;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	left: 0;
+} /*end of rule for id navigationbar*/
+    
+.navigation li
+{
+	float: left; /*gets list items to slide next to eachother*/
+} /*end of rule for list items in the navigation class*/
+
+.navigation a, .navigation a:visited
+{
+	display: block;
+	background: black;
+	color: white;
+	padding: 25px 50px;
+	font-family: Georgia, serif;
+	text-decoration: none;
+	font-size: 22px;
+} /*end of rule for links and visited links in the navigation class*/
+
+.navigation a:hover
+{
+	color: #dd0d79; /*pink*/;
+} /*end of rule for hovering links in the navigation class*/
+
+/*index page section*/
+
+#allaboutfeminism
+{
+  font-family: Roboto, sans-serif;
+  color: #dd0d79; /*pink*/;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; /*creates border/shadow around letters*/
+  font-size: 100px;
+  margin: 150px 10px 0px 10px;
+	z-index: -1;
+	text-align: center;
+} /*end of h1 rule on index page*/
+
+#indexbody
+{
+  background-image: url("womensmarch.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}/*end of rule for body of the index page*/
+
+#tableofcontentsheader
+{
+  font-family: Roboto, sans-serif;
+	color: #dd0d79; /*pink*/
+	margin: 125px 0px 0px 0px;
+	z-index: -1;
+	padding: 10px;
+	background-color: white;
+} /*end of rule for heading of table of contents*/
+
+#whatisfeminismheader, #intersectionalityheader, #factsheader, #moreresources, #abouttheauthorheader, #explore
+{
+	font-family: Roboto, sans-serif;
+	color: #dd0d79; /*pink*/
+	margin: 25px 0px 0px 0px;
+	z-index: -1;
+	padding: 10px;
+	background-color: white;
+} /*end of rule for headings on the index page*/
+
+#whatisfeminism, #intersectionalityone, #intersectionalitytwo, #factslist li, #moreresourceslist li, #explorelist li, #author, #learnmore, #contact
+{
+  z-index: -1;
+  margin: 8px;
+  font-family: Georgia, serif;
+  line-height: 135%;
+  text-align: justify;
+} /*end of rule for paragraphs and lists on the index page*/
+
+#imageofme
+{
+  z-index: -1;
+  margin: 8px;
+} /*end of rule for image of me*/
+
+#tableofcontents li
+{
+  display: inline;
+  padding: 20px;
+  z-index: -1;
+} /*end of rule for list items in the table of contents list*/
+
+#tableofcontents
+{
+	font-family: Georgia, serif;
+	z-index: -1;
+	margin: 0;
+  list-style-type: none;
+} /*end of table of contents rule*/
+
+/*glossary page section*/
+
+#glossaryheader
+{
+  font-family: Roboto, sans-serif;
+  color: #dd0d79; /*pink*/;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  font-size: 100px;
+}/*end of glossary header rule*/
+
+#feminismdefinition
+{
+  margin: 8px;
+} /*end of rule for feminism definition image*/
+
+#glossarywords
+{
+  line-height: 200%;
+  font-family: Georgia, serif;
+} /*end of rule for glossary words list*/
+
+/*references page section*/
+
+#referencesheader
+{
+  font-family: Roboto, sans-serif;
+  color: #dd0d79; /*pink*/
+  display: block;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  font-size: 100px;
+}
+
+#books, #images, #magazines, #newspapers, #videos, #websites
+{
+  font-family: Roboto, sans-serif;
+  color: #dd0d79; /*pink*/
+}/*end of rule for h2 in the references page*/
+
+#bookreference, #feminismdefinitionreference, #imageofmereference, #womensmarchreference, #magazinereference, #videoreference, #newspaperreference,#intersectionalityreference, #genderequalityreference, #plancanadareference
+{
+  font-family: Georgia, serif;
+  line-height: 125%;
+} /*end of rule for reference paragraphs*/
+
+/*links section*/
+
+p a, li a
+{
+	color: blue;
+	z-index: -1;
+} /*end of rule for links in paragraphs and lists*/
+
+p a:visited, li a:visited
+{
+	color: gray;
+} /*end of rule for visited links in paragraphs and  lists*/
+
+p a:hover, li a:hover
+{
+	color: #dd0d79; /*pink*/
+}/*end of rule for hovered links* in paragraphs and lists*/
